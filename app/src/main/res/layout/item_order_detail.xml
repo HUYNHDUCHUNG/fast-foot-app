@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_order_detail_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/carview_item_order_detail"
+        android:layout_marginRight="10dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:cardCornerRadius="8dp"
+        >
+        <ImageView
+            android:id="@+id/imv_food_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background"/>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/carview_item_order_detail"
+        android:orientation="vertical">
+        <TextView
+
+            android:id="@+id/tv_food_name_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hambuger"/>
+        <TextView
+            android:layout_below="@+id/tv_food_name_item"
+            android:id="@+id/tv_quantity_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số lượng: 3"
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

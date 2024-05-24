@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_order_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+        <FrameLayout
+            android:layout_margin="7dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_background_login"
+            >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/tv_code_order"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Mã hóa đơn: xyz01234"/>
+                        <TextView
+                            android:id="@+id/tv_admin_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Admin: Hưng"/>
+                        <TextView
+                            android:id="@+id/tv_status_order"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Trạng thái: chưa thanh toán"/>
+                        <TextView
+                            android:id="@+id/tv_create_at_order"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Thời gian: "/>
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/gray"/>
+                        <TextView
+                            android:id="@+id/tv_total_price_order"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tổng tiền: "/>
+                </LinearLayout>
+        </FrameLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

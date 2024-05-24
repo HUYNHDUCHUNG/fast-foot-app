@@ -1,0 +1,13 @@
+<resources>
+
+
+    <string name="app_name">Fast Food Manager</string>
+    <string name="action_home">Table</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_food_list">Food</string>
+    <string name="action_order_list">Order</string>
+    <string name="uri">Đường dẫn hình ảnh</string>
+    <string name="input_food_name">Tên món</string>
+    <string name="input_food_price">Giá</string>
+</resources>
